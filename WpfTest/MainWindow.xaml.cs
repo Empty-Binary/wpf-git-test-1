@@ -29,5 +29,10 @@ namespace WpfTest
         {
             Console.WriteLine("TEST");
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Console.WriteLine("TEST2");
+        }
     }
 }
